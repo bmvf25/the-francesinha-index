@@ -1,7 +1,6 @@
--- The Francesinha Index
--- Core comparisons and price-quality analysis
+-- Main comparisons
 
--- Porto versus Gaia
+-- Compare ratings by city
 SELECT
     city,
     COUNT(*) AS restaurant_count,
@@ -10,7 +9,7 @@ FROM restaurants
 GROUP BY city
 ORDER BY city;
 
--- Number and average price of francesinhas by city
+-- Count francesinhas and calculate average price by city
 SELECT
     r.city,
     COUNT(f.francesinha_id) AS francesinha_count,
@@ -20,7 +19,7 @@ JOIN francesinhas AS f USING (restaurant_id)
 GROUP BY r.city
 ORDER BY r.city;
 
--- Cheapest francesinhas
+-- Five cheapest francesinhas
 SELECT
     f.francesinha_category,
     f.restaurant_name,
@@ -32,7 +31,7 @@ JOIN restaurants AS r USING (restaurant_id)
 ORDER BY CAST(price_eur AS REAL) ASC
 LIMIT 5;
 
--- Most expensive francesinhas
+-- Five most expensive francesinhas
 SELECT
     f.francesinha_category,
     f.restaurant_name,
@@ -44,8 +43,8 @@ JOIN restaurants AS r USING (restaurant_id)
 ORDER BY CAST(price_eur AS REAL) DESC
 LIMIT 5;
 
--- Simple price-quality ranking: Original francesinhas only.
--- The final project ranking uses the adjusted rating calculated in Google Sheets.
+-- Simple price-quality ranking using Original francesinhas only.
+-- The final ranking in Google Sheets also uses the number of reviews.
 SELECT
     f.restaurant_name,
     r.city,
@@ -61,7 +60,7 @@ WHERE f.francesinha_category = 'Original'
 ORDER BY rating_per_euro DESC, r.google_review_count DESC
 LIMIT 10;
 
--- Category supply by city, excluding XXL from the three main categories
+-- Count the main categories by city
 SELECT
     r.city,
     SUM(CASE WHEN f.francesinha_category = 'Original' THEN 1 ELSE 0 END) AS original_count,
@@ -72,7 +71,7 @@ JOIN francesinhas AS f USING (restaurant_id)
 GROUP BY r.city
 ORDER BY r.city;
 
--- Fresh versus frozen fries
+-- Compare fresh and frozen fries
 SELECT
     fries_type,
     COUNT(*) AS francesinha_count,
