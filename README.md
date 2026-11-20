@@ -1,37 +1,39 @@
 # The Francesinha Index
 
-Data analysis project comparing francesinha restaurants in Porto and Gaia, Portugal.
+This is a small data analysis project about francesinha restaurants in Porto and Gaia.
 
-## Project scope
+I collected information about 31 restaurants and 54 francesinhas. The data includes Google ratings, review counts, prices, categories, fries, opening hours and services such as takeaway, delivery and reservations.
 
-The dataset contains 31 restaurants and 54 francesinha records. It covers Google ratings and review counts, prices, categories, fries, opening hours, takeaway, delivery, and reservations.
+## Folder structure
 
-## Repository structure
+- `data/` contains the exported CSV files and the final spreadsheet.
+- `sql/` contains the SQL queries used in the project.
+- `tableau/` will contain the Tableau workbook and related files.
+- `images/` will contain screenshots and exported charts.
 
-- `data/` — CSV exports and the final Google Sheets workbook
-- `sql/` — data-quality checks and analysis queries written for SQLite
-- `tableau/` — Tableau workbook and dashboard assets
-- `images/` — chart exports and project previews
+## Some results
 
-## Main findings
+- The average Google rating was 4.5.
+- The average price was €13.21.
+- Gaia had an average rating of 4.51.
+- Porto had an average rating of 4.41.
+- Restaurante O Forno had the best Original rating-to-price result.
+- Sunday was the day with the most closed restaurants.
+- Restaurants with fresh fries had a 0.14-point higher average rating in this sample.
 
-- Average Google rating: 4.5
-- Average francesinha price: €13.21
-- Gaia average rating: 4.51
-- Porto average rating: 4.41
-- Best Original price-quality result: Restaurante O Forno
-- Sunday is the most common closing day
-- Fresh-fries restaurants have a 0.14-point higher average Google rating than frozen-fries restaurants in this sample
+## How I did the analysis
 
-## Methodology
+I used Google Maps for ratings and review counts. Prices and product information came from the source links saved in the spreadsheet.
 
-The price-quality ranking uses only `Original` francesinhas. It combines the Google rating with the number of reviews through an adjusted-rating formula, then divides the adjusted rating by the francesinha price.
+For the main price-quality ranking, I only used Original francesinhas. I also created an adjusted rating because a rating based on 50 reviews should not have exactly the same weight as a rating based on thousands of reviews.
 
-Ratings and review counts come from Google Maps. Prices and product characteristics come from the source URLs recorded in the dataset. Unknown service values remain unknown instead of being treated as false.
+The final adjusted-rating calculation is explained in the Google Sheets file. The SQL folder contains simpler queries because this was also a project to practise basic SQL.
+
+Unknown service information was left as unknown instead of being treated as false.
 
 ## Next steps
 
-- Build the Tableau Public dashboard
-- Add SQL result examples to the project documentation
-- Publish the final project narrative on the personal website
+- Finish the Tableau dashboard.
+- Add screenshots and examples of the SQL results.
+- Publish the project story on my personal website.
 
