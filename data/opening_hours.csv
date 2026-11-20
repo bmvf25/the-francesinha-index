@@ -1,0 +1,346 @@
+﻿restaurant_id,restaurant_name,day_of_week,service_period,opens_at,closes_at,closed,source_url,collection_date
+r001,Capa Na Baixa,Monday,Lunch,12:00,15:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Monday,Dinner,19:00,23:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Tuesday,Lunch,12:00,15:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Tuesday,Dinner,19:00,23:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Wednesday,Lunch,12:00,15:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Wednesday,Dinner,19:00,23:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Thursday,Lunch,12:00,15:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Thursday,Dinner,19:00,23:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Friday,Lunch,12:00,15:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Friday,Dinner,19:00,00:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Saturday,Lunch,12:00,15:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Saturday,Dinner,19:00,00:00,FALSE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r001,Capa Na Baixa,Sunday,Closed,,,TRUE,https://maps.app.goo.gl/RjFaYsiYQuhW36Wt7,2026-11-18
+r002,Francesinhas da Rasa,Monday,Dinner,19:00,22:00,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Tuesday,Lunch,12:00,14:30,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Tuesday,Dinner,19:00,22:00,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Wednesday,Lunch,12:00,14:30,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Wednesday,Dinner,19:00,22:00,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Thursday,Lunch,12:00,14:30,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Thursday,Dinner,19:00,22:00,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Friday,Lunch,12:00,14:30,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Friday,Dinner,19:00,22:00,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Saturday,Lunch,12:00,14:30,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Saturday,Dinner,19:00,22:00,FALSE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r002,Francesinhas da Rasa,Sunday,Closed,,,TRUE,https://maps.app.goo.gl/aEyyUsWm3J2WsqmJ8,2026-11-18
+r003,Café Santiago,Monday,Continuous,12:00,22:45,FALSE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r003,Café Santiago,Tuesday,Continuous,12:00,22:45,FALSE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r003,Café Santiago,Wednesday,Continuous,12:00,22:45,FALSE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r003,Café Santiago,Thursday,Continuous,12:00,22:45,FALSE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r003,Café Santiago,Friday,Continuous,12:00,22:45,FALSE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r003,Café Santiago,Saturday,Continuous,12:00,22:45,FALSE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r003,Café Santiago,Sunday,Closed,,,TRUE,https://maps.app.goo.gl/e8r5VFx6PxnD2LE3A,2026-11-18
+r004,Brasão Aliados,Monday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Monday,Dinner,18:30,23:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Tuesday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Tuesday,Dinner,18:30,23:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Wednesday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Wednesday,Dinner,18:30,23:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Thursday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Thursday,Dinner,18:30,23:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Friday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Friday,Dinner,18:30,00:00,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Saturday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Saturday,Dinner,18:30,00:00,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Sunday,Lunch,12:00,16:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r004,Brasão Aliados,Sunday,Dinner,18:30,23:30,FALSE,https://maps.app.goo.gl/kuqhze5hM38ZX3rX7,2026-11-18
+r005,Capa Negra II,Monday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Monday,Dinner,19:00,00:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Tuesday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Tuesday,Dinner,19:00,00:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Wednesday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Wednesday,Dinner,19:00,00:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Thursday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Thursday,Dinner,19:00,00:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Friday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Friday,Dinner,19:00,01:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Saturday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Saturday,Dinner,19:00,01:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Sunday,Lunch,12:00,16:00,FALSE,https://capanegra.com/,2026-11-18
+r005,Capa Negra II,Sunday,Dinner,19:00,23:00,FALSE,https://capanegra.com/,2026-11-18
+r006,Lado B Café,Monday,Lunch,12:00,15:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Monday,Dinner,19:00,23:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Tuesday,Lunch,12:00,15:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Tuesday,Dinner,19:00,23:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Wednesday,Lunch,12:00,15:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Wednesday,Dinner,19:00,23:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Thursday,Lunch,12:00,15:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Thursday,Dinner,19:00,23:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Friday,Lunch,12:00,15:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Friday,Dinner,19:00,23:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Saturday,Lunch,12:00,15:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Saturday,Dinner,19:00,23:45,FALSE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r006,Lado B Café,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Lado+B+Caf%C3%A9%2C+Rua+Passos+Manuel+190%2C+4000-382+Porto,2026-11-18
+r007,Café São João,Monday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Monday,Dinner,18:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Tuesday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Tuesday,Dinner,18:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Wednesday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Wednesday,Dinner,18:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Thursday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Thursday,Dinner,18:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Friday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Friday,Dinner,18:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Saturday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Saturday,Dinner,17:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r007,Café São João,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+S%C3%A3o+Jo%C3%A3o%2C+R.+Delfim+Lima+1957%2C+4410-227+Canelas,2026-11-18
+r008,Café Belo Ponto,Monday,Continuous,07:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r008,Café Belo Ponto,Tuesday,Continuous,07:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r008,Café Belo Ponto,Wednesday,Continuous,07:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r008,Café Belo Ponto,Thursday,Continuous,07:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r008,Café Belo Ponto,Friday,Continuous,07:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r008,Café Belo Ponto,Saturday,Continuous,07:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r008,Café Belo Ponto,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Belo%20Ponto%2C%20R.%20do%20Marqu%C3%AAs%20de%20S%C3%A1%20da%20Bandeira%20224%2C%204400-217%20Vila%20Nova%20de%20Gaia,2026-11-18
+r009,Mini Coffee das Francesinhas,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Tuesday,Dinner,18:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Wednesday,Dinner,18:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Thursday,Lunch,12:00,15:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Thursday,Dinner,18:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Friday,Lunch,12:00,15:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Friday,Dinner,18:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Saturday,Lunch,12:00,15:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Saturday,Dinner,18:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r009,Mini Coffee das Francesinhas,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Mini%20Coffee%20das%20Francesinhas%2C%20Recanto%20do%20Crasto%2044%2C%204405-550%20Valadares,2026-11-18
+r010,JumaCaffé,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Tuesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Tuesday,Dinner,18:30,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Wednesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Wednesday,Dinner,18:30,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Thursday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Thursday,Dinner,18:30,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Friday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Friday,Dinner,18:30,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Saturday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Saturday,Dinner,18:30,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r010,JumaCaffé,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=JumaCaff%C3%A9%2C%20R.%20Prof.%20Joaquim%20Sim%C3%B5es%20da%20Hora%2017%2C%204405-742%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Monday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Monday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Tuesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Tuesday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Wednesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Wednesday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Thursday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Thursday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Friday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Friday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Saturday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Saturday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r011,Casa Dona Amélia,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Casa%20Dona%20Am%C3%A9lia%2C%20Tv.%20Loureiro%2092%2C%204405-757%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Tuesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Tuesday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Wednesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Wednesday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Thursday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Thursday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Friday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Friday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Saturday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Saturday,Dinner,19:00,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r012,Perto do Cais,Sunday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Perto%20do%20Cais%2C%20R.%20de%20Rei%20Ramiro%20786%2C%204400-281%20Vila%20Nova%20de%20Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Monday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Tuesday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Wednesday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Thursday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Friday,Continuous,12:00,00:30,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Saturday,Continuous,12:00,00:30,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r013,Taberna Londrina Gaia,Sunday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Taberna+Londrina+Vila+Nova+de+Gaia%2C+R.+de+Soares+dos+Reis+9%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Tuesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Tuesday,Dinner,18:30,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Wednesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Wednesday,Dinner,18:30,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Thursday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Thursday,Dinner,18:30,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Friday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Friday,Dinner,18:30,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Saturday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Saturday,Dinner,18:30,22:30,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r014,Café Hamburgo,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Hamburgo%2C+R.+Joaquim+Lopes+Pintor+176%2C+Vila+Nova+de+Gaia,2026-11-18
+r015,Restaurante Paquete,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Tuesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Tuesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Wednesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Wednesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Thursday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Thursday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Friday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Friday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Saturday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Saturday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r015,Restaurante Paquete,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Restaurante+Paquete%2C+R.+Dami%C3%A3o+de+G%C3%B3is+80%2C+4460-292+Senhora+da+Hora,2026-11-18
+r016,TimeOut Sports Bar & Grill,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Tuesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Tuesday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Wednesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Wednesday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Thursday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Thursday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Friday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Friday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Saturday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Saturday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r016,TimeOut Sports Bar & Grill,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=TimeOut+Sports+Bar+%26+Grill%2C+Av.+Eng.+Armando+Magalh%C3%A3es+371%2C+Valongo,2026-11-18
+r017,Locanda Hard Drivers,Monday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Monday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Tuesday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Tuesday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Wednesday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Thursday,Continuous,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Friday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Friday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Saturday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Saturday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Sunday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r017,Locanda Hard Drivers,Sunday,Dinner,18:30,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Hard+Drivers+Locanda%2C+R.+Lages+735%2C+4410-312+Canelas,2026-11-18
+r018,Yuko Tavern,Monday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Monday,Dinner,19:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Tuesday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Tuesday,Dinner,19:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Wednesday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Wednesday,Dinner,19:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Thursday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Thursday,Dinner,19:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Friday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Friday,Dinner,19:00,01:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Saturday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Saturday,Dinner,19:00,01:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Sunday,Lunch,12:30,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r018,Yuko Tavern,Sunday,Dinner,19:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Yuko+Tavern%2C+Rua+de+Costa+Cabral+2331%2C+4200-232+Porto,2026-11-18
+r019,Francesinha Café,Monday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Monday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Tuesday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Tuesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Wednesday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Wednesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Thursday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Thursday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Friday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Friday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Saturday,Lunch,12:30,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Saturday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r019,Francesinha Café,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Francesinha+Caf%C3%A9%2C+Rua+da+Alegria+946%2C+Porto,2026-11-18
+r020,Toca dos Amigos,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Tuesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Tuesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Wednesday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Wednesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Thursday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Thursday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Friday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Friday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Saturday,Lunch,12:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Saturday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r020,Toca dos Amigos,Sunday,Lunch,11:00,14:30,FALSE,https://www.google.com/maps/search/?api=1&query=Toca+dos+Amigos%2C+R.+Pala+73%2C+Vila+Nova+de+Gaia,2026-11-18
+r021,Camada Porto Boavista,Monday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Monday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Tuesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Tuesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Wednesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Wednesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Thursday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Thursday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Friday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Friday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Saturday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Saturday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Sunday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r021,Camada Porto Boavista,Sunday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Camada%2C+Rua+da+Medita%C3%A7%C3%A3o+51%2C+4150-487+Porto,2026-11-18
+r022,Santa Francesinha,Tuesday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r022,Santa Francesinha,Monday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r022,Santa Francesinha,Wednesday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r022,Santa Francesinha,Thursday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r022,Santa Francesinha,Friday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r022,Santa Francesinha,Saturday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r022,Santa Francesinha,Sunday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Santa+Francesinha%2C+Pra%C3%A7a+dos+Poveiros+72%2C+Porto,2026-11-18
+r023,Paraíso Das Francesinhas,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Tuesday,Lunch,11:45,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Tuesday,Dinner,19:00,21:30,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Wednesday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Thursday,Lunch,11:45,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Thursday,Dinner,19:00,21:30,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Friday,Lunch,11:45,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Friday,Dinner,19:30,21:30,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Saturday,Lunch,11:45,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Saturday,Dinner,19:30,21:30,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Sunday,Lunch,11:45,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r023,Paraíso Das Francesinhas,Sunday,Dinner,19:00,21:30,FALSE,https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Das+Francesinhas%2C+R.+Dr.+Fl%C3%B3rido+Toscano+53%2C+Vila+Nova+de+Gaia,2026-11-18
+r024,Alfândega Douro,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Tuesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Tuesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Wednesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Wednesday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Thursday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Thursday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Friday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Friday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Saturday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Saturday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Sunday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r024,Alfândega Douro,Sunday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alf%C3%A2ndega+Douro%2C+Rua+de+Miragaia+106%2C+Porto,2026-11-18
+r025,Bugatti Caffe,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r025,Bugatti Caffe,Monday,Continuous,07:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r025,Bugatti Caffe,Tuesday,Continuous,07:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r025,Bugatti Caffe,Wednesday,Continuous,07:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r025,Bugatti Caffe,Thursday,Continuous,07:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r025,Bugatti Caffe,Friday,Continuous,07:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r025,Bugatti Caffe,Saturday,Continuous,07:30,23:30,FALSE,https://www.google.com/maps/search/?api=1&query=Bugatti+Caffe%2C+R.+da+Constitui%C3%A7%C3%A3o+758%2C+4200-195+Porto,2026-11-18
+r026,Restaurante O Forno,Monday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Monday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Tuesday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Tuesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Wednesday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Wednesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Thursday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Thursday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Friday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Friday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Saturday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Saturday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r026,Restaurante O Forno,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Restaurante+O+Forno%2C+R.+Bar%C3%A3o+do+Corvo+389%2C+Vila+Nova+de+Gaia,2026-11-18
+r027,Café Trevo,Sunday,Closed,,,TRUE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r027,Café Trevo,Monday,Continuous,07:00,22:30,FALSE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r027,Café Trevo,Tuesday,Continuous,07:00,22:30,FALSE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r027,Café Trevo,Wednesday,Continuous,07:00,22:30,FALSE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r027,Café Trevo,Thursday,Continuous,07:00,22:30,FALSE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r027,Café Trevo,Friday,Continuous,07:00,22:30,FALSE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r027,Café Trevo,Saturday,Continuous,07:00,22:30,FALSE,https://trevo-francesinhas-canelas.eatbu.com/?lang=pt,2026-11-19
+r028,Requinte Francesinhas,Monday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r028,Requinte Francesinhas,Tuesday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r028,Requinte Francesinhas,Wednesday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r028,Requinte Francesinhas,Thursday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r028,Requinte Francesinhas,Friday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r028,Requinte Francesinhas,Saturday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r028,Requinte Francesinhas,Sunday,Continuous,09:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Requinte+Francesinhas%2C+R.+Godinho+837%2C+4450-150+Matosinhos,2026-11-18
+r029,Alkimia Grill,Monday,Continuous,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Tuesday,Continuous,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Wednesday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Wednesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Thursday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Thursday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Friday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Friday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Saturday,Lunch,10:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Saturday,Dinner,19:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r029,Alkimia Grill,Sunday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Alkimia+Grill%2C+R.+Francisco+Alexandre+Ferreira+188F%2C+Vila+Nova+de+Gaia,2026-11-18
+r030,Dona Francesinha,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r030,Dona Francesinha,Tuesday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r030,Dona Francesinha,Wednesday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r030,Dona Francesinha,Thursday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r030,Dona Francesinha,Sunday,Continuous,12:00,23:00,FALSE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r030,Dona Francesinha,Friday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r030,Dona Francesinha,Saturday,Continuous,12:00,00:00,FALSE,https://www.google.com/maps/search/?api=1&query=Dona+Francesinha+Porto+Coliseu%2C+R.+de+Passos+Manuel+245%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Monday,Closed,,,TRUE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Tuesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Tuesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Wednesday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Wednesday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Thursday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Thursday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Friday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Friday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Saturday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Saturday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Sunday,Lunch,12:00,15:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18
+r031,Café Restaurante O Afonso,Sunday,Dinner,19:00,22:00,FALSE,https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Restaurante+O+Afonso%2C+Rua+da+Torrinha+219%2C+Porto,2026-11-18

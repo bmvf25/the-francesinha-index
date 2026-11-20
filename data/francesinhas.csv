@@ -1,0 +1,55 @@
+﻿restaurant_id,restaurant_name,francesinha_id,francesinha_name,price_eur,francesinha_category,bread_type,sauce_options,fries_type,fries_included,egg_included,price_source_url,price_collection_date
+r001,Capa Na Baixa,f001,Francesinha Rainha,14.5,Original,Bijou,Traditional,Fresh,FALSE,FALSE,https://capanabaixa.pt/menu-baixa/,2026-11-18
+r001,Capa Na Baixa,f002,Francesinha Vegetariana,13,Vegetarian,Bijou,Traditional,Fresh,FALSE,FALSE,https://capanabaixa.pt/menu-baixa/,2026-11-18
+r002,Francesinhas da Rasa,f003,Francesinha Clássica,11.9,Original,Forma,Traditional,Fresh,FALSE,TRUE,https://maps.app.goo.gl/2iVAdT6XFKAt7UL27,2026-11-18
+r003,Café Santiago,f004,Francesinha Santiago,13.2,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/PSTTu4MTy4ex9yLm7,2026-11-18
+r004,Brasão Aliados,f005,Francesinha no Forno,15.1,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/WTNehDobB8KqsyCb6,2026-11-18
+r004,Brasão Aliados,f006,Francesinha de Vegetais,15.1,Vegetarian,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/WTNehDobB8KqsyCb6,2026-11-18
+r005,Capa Negra II,f007,"Francesinha ""a Rainha do Capa""",15,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/FDCU1TDnZ8z9YkXK7,2026-11-18
+r006,Lado B Café,f008,Francesinha Lado B,12.75,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/vsEWcAkDWo5gRZ6n6,2026-11-18
+r006,Lado B Café,f009,Francesinha Vegetariana,12.95,Vegetarian,Forma,Vegetal,Fresh,FALSE,FALSE,https://maps.app.goo.gl/29j26m8xRTgMP9AV9,2026-11-18
+r007,Café São João,f010,Francesinha,13,Original,Forma,Traditional,Fresh,FALSE,TRUE,https://www.tiktok.com/@tascologo/video/7650950889720581409,2026-11-18
+r008,Café Belo Ponto,f011,Francesinha,14.85,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://www.facebook.com/groups/269882023149941/posts/3670489206422522/,2026-11-18
+r009,Mini Coffee das Francesinhas,f012,Francesinha,15.2,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/nChABHZpsiHPDVAd9,2026-11-18
+r010,JumaCaffé,f013,Francesinha Simples,12,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/WoBbVFJeAajzJorQ6,2026-11-18
+r010,JumaCaffé,f014,Francesinha à Juma,14.8,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/WoBbVFJeAajzJorQ6,2026-11-18
+r010,JumaCaffé,f015,Francesinha Veggie,12.5,Vegan,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/WoBbVFJeAajzJorQ6,2026-11-18
+r010,JumaCaffé,f016,Francesinha Veggie à Juma,15.5,Vegetarian,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/WoBbVFJeAajzJorQ6,2026-11-18
+r011,Casa Dona Amélia,f017,Francesinha Normal,10.5,Original,Forma,Traditional,Frozen,TRUE,FALSE,https://pt.restaurantguru.com/Casa-D-Amelia-Porto/menu,2026-11-18
+r011,Casa Dona Amélia,f018,Francesinha XXL,14,XXL,Forma,Traditional,Frozen,TRUE,FALSE,https://pt.restaurantguru.com/Casa-D-Amelia-Porto/menu,2026-11-18
+r011,Casa Dona Amélia,f019,Francesinha Vegetariana,9,Vegetarian,Forma,Traditional,Frozen,TRUE,FALSE,https://pt.restaurantguru.com/Casa-D-Amelia-Porto/menu,2026-11-18
+r012,Perto do Cais,f020,Francesinha,14,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/uuchFjGbjLfsKUzq5,2026-11-18
+r012,Perto do Cais,f021,Francesinha Vegetariana,15,Vegetarian,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/uuchFjGbjLfsKUzq5,2026-11-18
+r013,Taberna Londrina Gaia,f022,Francesinha,12.9,Original,Forma,Sweet,Frozen,FALSE,TRUE,https://maps.app.goo.gl/bLwnTrT63b1JVYup7,2026-11-18
+r013,Taberna Londrina Gaia,f023,Francesinha Vegetariana,12.9,Vegetarian,Forma,Sweet,Frozen,FALSE,TRUE,https://maps.app.goo.gl/bLwnTrT63b1JVYup7,2026-11-18
+r014,Café Hamburgo,f024,Francesinha,12,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/KLVUmJMNyFZothzM6,2026-11-18
+r015,Restaurante Paquete,f025,Francesinha Especial,10.5,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/ZiMP45a5uhfdU7Ch6,2026-11-18
+r016,TimeOut Sports Bar & Grill,f026,Francesinha Bife Lombo de Boi,12.95,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/L9cn9PCg29EnV5Es5,2026-11-18
+r017,Locanda Hard Drivers,f027,Francesinha,13.9,Original,Forma,Traditional,Frozen,FALSE,FALSE,https://locandarestaurantes.pt/menu-harddrivers/?e-filter-2cc375b-category=especialidades,2026-11-18
+r017,Locanda Hard Drivers,f028,Francesinha Vegetariana,11.9,Vegetarian,Forma,Vegan,Frozen,FALSE,FALSE,https://locandarestaurantes.pt/menu-harddrivers/?e-filter-2cc375b-category=especialidades,2026-11-18
+r017,Locanda Hard Drivers,f029,Francesinha Vegan,14.5,Vegan,Forma,Vegan,Frozen,FALSE,FALSE,https://locandarestaurantes.pt/menu-harddrivers/?e-filter-2cc375b-category=especialidades,2026-11-18
+r018,Yuko Tavern,f030,Francesinha C/ Ovo,15.6,Original,Forma,Traditional,Fresh,FALSE,TRUE,https://maps.app.goo.gl/EVR6ENojYLegD8ss9,2026-11-18
+r018,Yuko Tavern,f031,Francesinha C/ Seitan e Ovo,14.5,Vegan,Forma,Traditional,Fresh,FALSE,TRUE,https://maps.app.goo.gl/EVR6ENojYLegD8ss9,2026-11-18
+r019,Francesinha Café,f032,Francesinha C/ Ovo,16,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/43T6Gucua7jv5gM77,2026-11-18
+r020,Toca dos Amigos,f033,Francesinha,13,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/h8VuQStir8GYMveL8,2026-11-18
+r021,Camada Porto Boavista,f034,Francesinha,12.9,Original,Forma,Sweet,Frozen,FALSE,FALSE,https://maps.app.goo.gl/khnCwadRWMgemjMP9,2026-11-18
+r021,Camada Porto Boavista,f035,Vegetariana,12.9,Vegetarian,Forma,Sweet,Frozen,FALSE,FALSE,https://maps.app.goo.gl/khnCwadRWMgemjMP9,2026-11-18
+r022,Santa Francesinha,f036,Francesinha Especialíssima,13.8,Original,Forma,Traditional,Frozen,TRUE,TRUE,https://maps.app.goo.gl/dynZB85fFy77SZ897,2026-11-18
+r022,Santa Francesinha,f037,Francesinha Vegan,14.5,Vegan,Forma,Vegan,Frozen,FALSE,FALSE,https://maps.app.goo.gl/dynZB85fFy77SZ897,2026-11-18
+r022,Santa Francesinha,f038,Francesinha Vegetariana C/ Ovo,14.5,Vegetarian,Forma,Vegan,Frozen,FALSE,TRUE,https://maps.app.goo.gl/dynZB85fFy77SZ897,2026-11-18
+r023,Paraíso Das Francesinhas,f039,Francesinha,14.5,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://www.paraisodasfrancesinhas.pt/ementa,2026-11-18
+r023,Paraíso Das Francesinhas,f040,Francesinha Vegetariana,14.5,Vegetarian,Forma,Traditional,Fresh,TRUE,TRUE,https://www.paraisodasfrancesinhas.pt/ementa,2026-11-18
+r024,Alfândega Douro,f041,Francesinha,14,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/D5stXJF8YiLAKP6h6,2026-11-18
+r024,Alfândega Douro,f042,Francesinha Vegetariana,11,Vegetarian,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/D5stXJF8YiLAKP6h6,2026-11-18
+r025,Bugatti Caffe,f043,Francesinha à Bugatti,13.5,Original,Forma,Traditional,Frozen,TRUE,TRUE,https://maps.app.goo.gl/X4pAj8ec9GM6FeD58,2026-11-18
+r026,Restaurante O Forno,f044,Francesinha Especial,11.5,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/9Uw8efvoRxgsABFS8,2026-11-18
+r026,Restaurante O Forno,f045,Francesinha Normal,10,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/9Uw8efvoRxgsABFS8,2026-11-18
+r027,Café Trevo,f046,Francesinha,11,Original,Forma,Traditional,Frozen,FALSE,FALSE,https://maps.app.goo.gl/ywPQZDDvHTN5a1x46,2026-11-18
+r028,Requinte Francesinhas,f047,Francesinha,12,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://pt.restaurantguru.com/Requinte-Francesinhas-Porto/menu,2026-11-18
+r028,Requinte Francesinhas,f048,Francesinha Vegetariana,7.5,Vegetarian,Forma,Traditional,Fresh,FALSE,FALSE,https://pt.restaurantguru.com/Requinte-Francesinhas-Porto/menu,2026-11-18
+r029,Alkimia Grill,f049,Francesinha,12,Original,Forma,Traditional,Fresh,FALSE,FALSE,https://maps.app.goo.gl/amqc4EDEXeE6Ueuo6,2026-11-18
+r029,Alkimia Grill,f050,Francesinha C/Ovo e Batata,14.5,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/amqc4EDEXeE6Ueuo6,2026-11-18
+r030,Dona Francesinha,f051,Dona Francesinha,10.9,Original,Forma,Traditional,Fresh,FALSE,TRUE,https://maps.app.goo.gl/Ajg3YPRUikaCMbhR8,2026-11-18
+r030,Dona Francesinha,f052,Francesinha Vegetariana,11.5,Vegetarian,Forma,Vegetal,Fresh,FALSE,FALSE,https://maps.app.goo.gl/Ajg3YPRUikaCMbhR8,2026-11-18
+r031,Café Restaurante O Afonso,f053,Francesinha,17,Original,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/SZxNKV5hthwnKXoB8,2026-11-18
+r031,Café Restaurante O Afonso,f054,Francesinha Vegetariana,15,Vegetarian,Forma,Traditional,Fresh,TRUE,TRUE,https://maps.app.goo.gl/SZxNKV5hthwnKXoB8,2026-11-18

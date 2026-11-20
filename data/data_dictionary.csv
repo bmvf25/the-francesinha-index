@@ -1,0 +1,47 @@
+﻿field_name,sheet,definition,source_policy,example
+selection_reason,Francesinhas,Why this one francesinha is retained as the restaurant reference item.,"Use documented choice: signature/house, otherwise traditional, otherwise standard.",Signature/house: official site presents Francesinha Rainha as iconic/flagship.
+selection_source_url,Francesinhas,URL supporting the reference-item selection.,Use a public source that explicitly supports the selection.,https://www.capanabaixa.pt/
+reference-item policy,Restaurants; Francesinhas,Keep one reference francesinha per restaurant; preserve other restaurant data unless directly affected.,"Do not invent ratings, prices, or ingredients; leave unverified fields blank.",Capa Na Baixa → Francesinha Rainha
+price_eur,Francesinhas,Preço da francesinha em euros.,Guardar como número; aplicar formato €0.00; não incluir o símbolo € no valor.,14.50
+fries_included,Francesinhas,Indica se as batatas fritas estão incluídas na francesinha.,"Guardar como booleano TRUE/FALSE, não como texto.",FALSE
+egg_included,Francesinhas,Indica se o ovo está incluído na francesinha.,"Guardar como booleano TRUE/FALSE, não como texto.",TRUE
+collection_date,Restaurants; Opening Hours; Francesinhas; Extras,Data da última atualização/recolha registada na folha.,Usar o formato YYYY-MM-DD e atualizar quando os dados forem revistos.,2026-11-18
+takeaway_available,Restaurants,Indica se o restaurante oferece takeaway/recolha.,"Usar TRUE, FALSE ou UNKNOWN quando não houver confirmação.",TRUE
+delivery_available,Restaurants,Indica se o restaurante oferece entrega ao domicílio.,"Usar TRUE, FALSE ou UNKNOWN quando não houver confirmação.",TRUE
+service_source_url,Restaurants,URL que comprova os serviços takeaway/delivery.,Preferir site oficial ou plataforma de encomenda; manter UNKNOWN quando a fonte não confirmar.,https://example.com/service
+service_collection_date,Restaurants,Data em que os serviços foram verificados.,Formato YYYY-MM-DD.,2026-11-18
+restaurant_id,Restaurants; Opening Hours; Francesinhas; Extras,Stable restaurant identifier used to join sheets.,Use r### format; unique in Restaurants.,r001
+restaurant_name,Restaurants; Opening Hours; Francesinhas; Extras,Displayed restaurant name.,Match the Restaurants name for the same restaurant_id.,Capa Na Baixa
+city,Restaurants,City or municipality recorded for the restaurant.,Use the project’s location label; do not infer a different city.,Porto
+address,Restaurants,Street address used for location and geocoding.,Keep the sourced address; do not invent missing components.,"Praça de Dom João I, 175, 4000-425 Porto"
+reservation_available,Restaurants,Whether a table reservation route is confirmed.,"Use TRUE, FALSE or UNKNOWN; phone alone is not proof.",TRUE
+google_rating,Restaurants,Google Maps rating for the restaurant.,Use Google source only; store as a number with one decimal.,4.3
+google_review_count,Restaurants,Google Maps review count for the restaurant.,Store as an integer; leave blank when not confirmed.,3877
+rating_source_url,Restaurants,Google Maps URL supporting the rating and review count.,Use the restaurant’s Google Maps link.,https://maps.app.goo.gl/example
+rating_collection_date,Restaurants,Date the Google rating and review count were collected.,Store as a date in YYYY-MM-DD display format.,2026-11-19
+latitude,Restaurants,Latitude in decimal degrees for mapping.,Use decimal degrees; do not use DMS notation.,41.1481220
+longitude,Restaurants,Longitude in decimal degrees for mapping.,Use decimal degrees; do not use DMS notation.,-8.6095937
+reservation_source_url,Restaurants,URL supporting the reservation classification.,Use the reservation or booking source; leave blank when not confirmed.,https://example.com/reservas
+reservation_collection_date,Restaurants,Date reservation availability was checked.,Store as a date in YYYY-MM-DD display format.,2026-11-18
+day_of_week,Opening Hours,Weekday represented by the opening-hours row.,Use Monday through Sunday.,Monday
+service_period,Opening Hours,Service interval represented by the row.,"Use Lunch, Dinner, Continuous or Closed.",Dinner
+opens_at,Opening Hours,Opening time for the service interval.,Store as a time in HH:mm; blank when closed.,19:00
+closes_at,Opening Hours,Closing time for the service interval.,Store as a time in HH:mm; use 00:00 for midnight; blank when closed.,23:00
+closed,Opening Hours,Whether the restaurant is closed for the row’s day/service.,Store as a boolean TRUE/FALSE.,FALSE
+source_url,Opening Hours; Extras,Public URL supporting the row’s value.,Use a source URL; leave blank for an explicit no-documentation marker.,https://maps.app.goo.gl/example
+francesinha_id,Francesinhas,Unique francesinha record identifier.,Use f### format; unique in Francesinhas.,f001
+francesinha_name,Francesinhas,Menu name of the francesinha.,Use the sourced menu name.,Francesinha Rainha
+francesinha_category,Francesinhas,Category of the francesinha.,"Use Original, Vegetarian, Vegan or XXL.",Original
+bread_type,Francesinhas,Bread type used in the francesinha.,Use the documented bread type; leave blank if unverified.,Forma
+sauce_options,Francesinhas,Documented sauce style or option.,Use the project’s controlled labels; do not infer taste.,Traditional
+fries_type,Francesinhas,Whether fries are fresh or frozen.,Use Fresh or Frozen only when sourced.,Fresh
+price_source_url,Francesinhas,URL supporting the francesinha price.,Use the menu or source page used for the price.,https://example.com/menu
+price_collection_date,Francesinhas,Date the francesinha price was collected.,Store as a date in YYYY-MM-DD display format.,2026-11-18
+extra_category,Extras,Category of an optional extra.,"Use Topping, Side, Protein, Sauce or None for no-documented-extras marker rows.",Side
+extra_name,Extras,Name of the optional extra.,Use the menu name; use No documented extras found only for marker rows.,Fries
+adjusted_google_rating,Analysis,"Rating ajustado pelo volume de reviews, usado no ranking de restaurantes.","Fórmula: (v/(v+500))*R + (500/(v+500))*C; R=rating, v=reviews, C=média geral Google.",Full
+rating_price_ratio,Analysis,Rating Google ajustado por euro do preço médio da francesinha do restaurante.,Usar apenas restaurantes com preço médio disponível; maior valor = melhor relação.,
+weekly_open_hours,Analysis,"Total de horas abertas por semana, somando intervalos não fechados.",Calculado a partir de Opening Hours; 00:00 é tratado como meia-noite.,
+category_city_counts,Analysis,"Contagem de francesinhas Original, Vegetarian e Vegan por cidade.",Cruzamento Francesinhas.restaurant_id -> Restaurants.city.,
+fries_included_price,Analysis,Contagem e preço médio agrupados por fries_included.,TRUE/FALSE da aba Francesinhas; preços preenchidos.,
+city_services_counts,Analysis,"Contagem de restaurantes com takeaway, delivery e reservas por cidade.",Apenas TRUE; UNKNOWN não conta como FALSE.,
