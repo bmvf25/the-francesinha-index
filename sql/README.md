@@ -1,12 +1,12 @@
 # SQL analysis
 
-These queries are written for SQLite using beginner-friendly SQL.
+These are the SQL queries I used for the project. They are written for SQLite and use basic commands.
 
-- `01_quality_checks.sql` checks row counts, duplicates, missing values, categories, and unknown service values.
-- `02_core_analysis.sql` contains the main comparisons, including Porto versus Gaia and a simple Original-only rating-per-euro ranking.
-- `03_opening_hours.sql` analyses closed days, common opening and closing times, and weekly opening hours.
+- `01_quality_checks.sql` checks if the data has the expected number of rows and if important values are missing.
+- `02_core_analysis.sql` compares Porto and Gaia, prices, categories and fries.
+- `03_opening_hours.sql` looks at closed days, common times and weekly opening hours.
 
-The SQL uses the CSV exports stored in `data/`.
+The queries use the CSV files in the `data` folder.
 
-The adjusted-rating formula is kept in Google Sheets because the project is intentionally using basic SQL. The SQL ranking demonstrates the simpler `rating / price` calculation, while the final ranking in the spreadsheet also accounts for the number of Google reviews.
+The final Google Sheets ranking uses the adjusted rating. In SQL I kept the price-quality example simpler and used rating divided by price, because the main purpose of this folder is to show basic SQL.
 
