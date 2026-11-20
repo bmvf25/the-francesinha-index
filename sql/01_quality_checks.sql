@@ -1,21 +1,20 @@
--- The Francesinha Index
--- Quality checks for the exported CSV files
+-- Basic checks for the exported CSV files
 
--- Number of restaurants
+-- Count restaurants
 SELECT COUNT(*) AS restaurant_count
 FROM restaurants;
 
--- Number of francesinha records
+-- Count francesinhas
 SELECT COUNT(*) AS francesinha_count
 FROM francesinhas;
 
--- Check for duplicate restaurant identifiers
+-- Look for duplicate restaurant IDs
 SELECT restaurant_id, COUNT(*) AS rows_per_id
 FROM restaurants
 GROUP BY restaurant_id
 HAVING COUNT(*) > 1;
 
--- Missing or invalid Google ratings
+-- Look for missing or invalid ratings
 SELECT restaurant_id, restaurant_name, google_rating
 FROM restaurants
 WHERE google_rating IS NULL
@@ -23,20 +22,20 @@ WHERE google_rating IS NULL
    OR CAST(google_rating AS REAL) < 0
    OR CAST(google_rating AS REAL) > 5;
 
--- Missing prices or non-positive prices
+-- Look for missing or invalid prices
 SELECT francesinha_id, restaurant_name, francesinha_name, price_eur
 FROM francesinhas
 WHERE price_eur IS NULL
    OR price_eur = ''
    OR CAST(price_eur AS REAL) <= 0;
 
--- Category distribution
+-- Count each category
 SELECT francesinha_category, COUNT(*) AS francesinha_count
 FROM francesinhas
 GROUP BY francesinha_category
 ORDER BY francesinha_count DESC;
 
--- Unknown service values should be visible, not silently converted to FALSE
+-- Count confirmed and unknown services
 SELECT
     SUM(CASE WHEN takeaway_available = 'TRUE' THEN 1 ELSE 0 END) AS takeaway_true,
     SUM(CASE WHEN takeaway_available = 'UNKNOWN' THEN 1 ELSE 0 END) AS takeaway_unknown,
