@@ -1,7 +1,6 @@
--- The Francesinha Index
 -- Opening-hours analysis
 
--- Restaurants closed by day
+-- Count closed restaurants by day
 SELECT
     day_of_week,
     COUNT(DISTINCT restaurant_id) AS restaurants_closed
