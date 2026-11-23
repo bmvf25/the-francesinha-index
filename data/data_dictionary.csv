@@ -1,4 +1,4 @@
-﻿field_name,sheet,definition,source_policy,example
+field_name,sheet,definition,source_policy,example
 selection_reason,Francesinhas,Why this one francesinha is retained as the restaurant reference item.,"Use documented choice: signature/house, otherwise traditional, otherwise standard.",Signature/house: official site presents Francesinha Rainha as iconic/flagship.
 selection_source_url,Francesinhas,URL supporting the reference-item selection.,Use a public source that explicitly supports the selection.,https://www.capanabaixa.pt/
 reference-item policy,Restaurants; Francesinhas,Keep one reference francesinha per restaurant; preserve other restaurant data unless directly affected.,"Do not invent ratings, prices, or ingredients; leave unverified fields blank.",Capa Na Baixa → Francesinha Rainha
@@ -31,7 +31,7 @@ closed,Opening Hours,Whether the restaurant is closed for the row’s day/servic
 source_url,Opening Hours; Extras,Public URL supporting the row’s value.,Use a source URL; leave blank for an explicit no-documentation marker.,https://maps.app.goo.gl/example
 francesinha_id,Francesinhas,Unique francesinha record identifier.,Use f### format; unique in Francesinhas.,f001
 francesinha_name,Francesinhas,Menu name of the francesinha.,Use the sourced menu name.,Francesinha Rainha
-francesinha_category,Francesinhas,Category of the francesinha.,"Use Original, Vegetarian, Vegan or XXL.",Original
+francesinha_category,Francesinhas,Analytical category of the francesinha.,"Use Original, Vegetarian or Vegan. Keep any size-only label separate from the three analytical categories.",Original
 bread_type,Francesinhas,Bread type used in the francesinha.,Use the documented bread type; leave blank if unverified.,Forma
 sauce_options,Francesinhas,Documented sauce style or option.,Use the project’s controlled labels; do not infer taste.,Traditional
 fries_type,Francesinhas,Whether fries are fresh or frozen.,Use Fresh or Frozen only when sourced.,Fresh
@@ -39,9 +39,11 @@ price_source_url,Francesinhas,URL supporting the francesinha price.,Use the menu
 price_collection_date,Francesinhas,Date the francesinha price was collected.,Store as a date in YYYY-MM-DD display format.,2026-11-18
 extra_category,Extras,Category of an optional extra.,"Use Topping, Side, Protein, Sauce or None for no-documented-extras marker rows.",Side
 extra_name,Extras,Name of the optional extra.,Use the menu name; use No documented extras found only for marker rows.,Fries
+portion,Extras,Size or quantity of the optional extra.,Use the documented portion label such as Single, Half, Quarter or Full; leave blank when not documented.,Full
 adjusted_google_rating,Analysis,"Rating ajustado pelo volume de reviews, usado no ranking de restaurantes.","Fórmula: (v/(v+500))*R + (500/(v+500))*C; R=rating, v=reviews, C=média geral Google.",Full
 rating_price_ratio,Analysis,Rating Google ajustado por euro do preço médio da francesinha do restaurante.,Usar apenas restaurantes com preço médio disponível; maior valor = melhor relação.,
 weekly_open_hours,Analysis,"Total de horas abertas por semana, somando intervalos não fechados.",Calculado a partir de Opening Hours; 00:00 é tratado como meia-noite.,
 category_city_counts,Analysis,"Contagem de francesinhas Original, Vegetarian e Vegan por cidade.",Cruzamento Francesinhas.restaurant_id -> Restaurants.city.,
 fries_included_price,Analysis,Contagem e preço médio agrupados por fries_included.,TRUE/FALSE da aba Francesinhas; preços preenchidos.,
 city_services_counts,Analysis,"Contagem de restaurantes com takeaway, delivery e reservas por cidade.",Apenas TRUE; UNKNOWN não conta como FALSE.,
+
