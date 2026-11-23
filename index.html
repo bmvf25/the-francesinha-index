@@ -3,145 +3,226 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Francesinha Index</title>
+  <meta name="description" content="The Francesinha Index: a small data analysis project comparing francesinha restaurants in Porto and Gaia.">
+  <title>The Francesinha Index | Porto & Gaia</title>
   <style>
     :root {
-      color-scheme: light;
-      --ink: #1f2937;
-      --muted: #64748b;
-      --accent: #c2410c;
-      --paper: #fffaf5;
-      --line: #eadfd6;
+      --ink: #f8f6f1;
+      --muted: #a9b2bf;
+      --bg: #0b1220;
+      --panel: #121d2d;
+      --panel-2: #18263a;
+      --line: rgba(255,255,255,.12);
+      --orange: #f5a623;
+      --orange-soft: #ffcc70;
+      --blue: #74c0fc;
+      --green: #7bd88f;
+      --max: 1180px;
     }
-
     * { box-sizing: border-box; }
-
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       color: var(--ink);
-      background: var(--paper);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
+      background:
+        radial-gradient(circle at 90% 5%, rgba(245,166,35,.16), transparent 30rem),
+        radial-gradient(circle at 0% 50%, rgba(116,192,252,.10), transparent 28rem),
+        var(--bg);
+      font: 16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-
-    main {
-      width: min(1180px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 56px 0 72px;
-    }
-
-    .hero {
-      max-width: 780px;
-      margin-bottom: 36px;
-    }
-
-    .eyebrow {
-      margin: 0 0 8px;
-      color: var(--accent);
-      font-size: .8rem;
-      font-weight: 800;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
-
-    h1, h2 { line-height: 1.15; }
-
-    h1 {
-      margin: 0 0 16px;
-      font-size: clamp(2.2rem, 5vw, 4.4rem);
-      letter-spacing: -.04em;
-    }
-
-    h2 {
-      margin: 0 0 8px;
-      font-size: clamp(1.45rem, 3vw, 2rem);
-    }
-
-    p { margin: 0 0 14px; }
-
-    .intro { color: var(--muted); font-size: 1.08rem; }
-
-    .map-card {
-      overflow: hidden;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: white;
-      box-shadow: 0 18px 50px rgba(89, 53, 29, .10);
-    }
-
-    .map-header {
-      padding: 24px 26px 18px;
+    a { color: inherit; }
+    .shell { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+    .nav {
+      position: sticky; top: 0; z-index: 10;
       border-bottom: 1px solid var(--line);
+      background: rgba(11,18,32,.88); backdrop-filter: blur(16px);
     }
-
-    .map-header p {
-      color: var(--muted);
-      margin-bottom: 0;
+    .nav-inner { min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+    .brand { font-weight: 800; letter-spacing: -.03em; text-decoration: none; }
+    .brand span { color: var(--orange); }
+    .nav-links { display: flex; gap: 22px; align-items: center; }
+    .nav-links a { color: var(--muted); font-size: .92rem; text-decoration: none; }
+    .nav-links a:hover, .nav-links a:focus-visible { color: var(--ink); }
+    .menu { display: none; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 8px; padding: 7px 10px; font-size: 1.1rem; }
+    .hero { padding: 110px 0 90px; }
+    .eyebrow { color: var(--orange-soft); font-size: .78rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1, h2, h3 { line-height: 1.1; letter-spacing: -.04em; margin: 0; }
+    h1 { max-width: 800px; margin-top: 16px; font-size: clamp(3.4rem, 9vw, 7.6rem); }
+    h2 { font-size: clamp(2rem, 4vw, 3.4rem); }
+    h3 { font-size: 1.3rem; }
+    .hero p { max-width: 680px; color: var(--muted); font-size: 1.18rem; margin: 25px 0 0; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-weight: 750; }
+    .button.primary { color: #1b1406; border-color: var(--orange); background: var(--orange); }
+    .button.secondary:hover, .button.secondary:focus-visible { border-color: var(--orange); }
+    .section { padding: 86px 0; border-top: 1px solid var(--line); }
+    .section-intro { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 34px; }
+    .section-intro p { max-width: 520px; color: var(--muted); margin: 0; }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .metric, .card { border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(145deg, rgba(24,38,58,.9), rgba(18,29,45,.9)); }
+    .metric { padding: 24px; }
+    .metric-value { display: block; color: var(--orange-soft); font-size: 2.6rem; font-weight: 850; letter-spacing: -.06em; }
+    .metric-label { color: var(--muted); font-size: .92rem; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    .card { padding: 26px; }
+    .card p { color: var(--muted); margin: 12px 0 0; }
+    .city-card { position: relative; overflow: hidden; }
+    .city-card::after { content: ""; position: absolute; width: 150px; height: 150px; right: -60px; top: -60px; border-radius: 50%; background: rgba(245,166,35,.12); }
+    .city-stat { display: flex; align-items: baseline; gap: 12px; margin: 20px 0 4px; }
+    .city-stat strong { font-size: 2.5rem; color: var(--orange-soft); }
+    .city-stat span { color: var(--muted); }
+    .comparison { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    .comparison th, .comparison td { padding: 12px 0; border-bottom: 1px solid var(--line); text-align: left; }
+    .comparison th { color: var(--muted); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+    .comparison td:not(:first-child) { text-align: right; }
+    .finding-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .finding .tag { display: inline-block; color: var(--orange-soft); font-size: .76rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .finding strong { display: block; margin-top: 18px; font-size: 1.8rem; letter-spacing: -.04em; }
+    .bar-list { margin-top: 22px; }
+    .bar-row { display: grid; grid-template-columns: 76px 1fr 50px; align-items: center; gap: 10px; margin: 10px 0; color: var(--muted); font-size: .9rem; }
+    .bar { height: 9px; overflow: hidden; border-radius: 999px; background: rgba(255,255,255,.1); }
+    .bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--orange), var(--orange-soft)); }
+    .bar-row b { color: var(--ink); text-align: right; }
+    .quote { margin: 28px 0 0; padding: 22px 24px; border-left: 3px solid var(--orange); color: var(--ink); background: rgba(245,166,35,.08); }
+    .tableau-wrap { padding: 10px; border: 1px solid var(--line); border-radius: 22px; background: #fff; box-shadow: 0 18px 70px rgba(0,0,0,.25); }
+    .tableau-wrap iframe { display: block; width: 100%; min-height: 650px; border: 0; border-radius: 14px; }
+    .method-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 18px; }
+    .method-list { display: grid; gap: 12px; margin: 20px 0 0; padding: 0; list-style: none; }
+    .method-list li { padding: 13px 15px; border: 1px solid var(--line); border-radius: 12px; color: var(--muted); }
+    .method-list strong { color: var(--ink); }
+    .footer { padding: 40px 0 60px; border-top: 1px solid var(--line); color: var(--muted); }
+    .footer-inner { display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 16px; }
+    .footer-links a { color: var(--orange-soft); text-decoration: none; }
+    :focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+    @media (max-width: 850px) {
+      .nav-links { display: none; position: absolute; left: 20px; right: 20px; top: 62px; padding: 16px; flex-direction: column; align-items: stretch; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
+      .nav-links.open { display: flex; }
+      .menu { display: block; }
+      .metrics, .finding-grid { grid-template-columns: repeat(2, 1fr); }
+      .method-grid { grid-template-columns: 1fr; }
     }
-
-    .map-frame {
-      position: relative;
-      width: 100%;
-      min-height: 680px;
-      background: #f3f4f6;
-    }
-
-    iframe {
-      display: block;
-      width: 100%;
-      height: 680px;
-      border: 0;
-    }
-
-    .fallback {
-      padding: 14px 26px 20px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: .95rem;
-    }
-
-    a {
-      color: var(--accent);
-      font-weight: 700;
-    }
-
-    @media (max-width: 700px) {
-      main { width: min(100% - 20px, 1180px); padding-top: 32px; }
-      .map-frame, iframe { height: 560px; min-height: 560px; }
-      .map-header { padding: 20px 18px 16px; }
-      .fallback { padding: 12px 18px 18px; }
+    @media (max-width: 600px) {
+      .shell { width: min(calc(100% - 28px), var(--max)); }
+      .hero { padding: 75px 0 65px; }
+      .section { padding: 62px 0; }
+      .section-intro, .footer-inner { display: block; }
+      .section-intro p { margin-top: 14px; }
+      .metrics, .grid-2, .finding-grid { grid-template-columns: 1fr; }
+      .metric-value { font-size: 2.2rem; }
+      .tableau-wrap iframe { min-height: 570px; }
+      .footer-links { margin-top: 18px; }
     }
   </style>
 </head>
 <body>
-  <main>
+  <header class="nav">
+    <div class="shell nav-inner">
+      <a class="brand" href="#top">The <span>Francesinha</span> Index</a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav-links" aria-label="Main navigation">
+        <a href="#findings">Findings</a>
+        <a href="#map">Map</a>
+        <a href="#method">Methodology</a>
+        <a href="https://github.com/finambre/the-francesinha-index" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
     <section class="hero">
-      <p class="eyebrow">Data analysis project</p>
-      <h1>The Francesinha Index</h1>
-      <p class="intro">
-        An interactive comparison of francesinha restaurants in Porto and Gaia,
-        using Google ratings, prices and restaurant locations.
-      </p>
+      <div class="shell">
+        <div class="eyebrow">A small data story about a big local classic</div>
+        <h1>Finding a better francesinha starts with better questions.</h1>
+        <p>31 restaurants. 54 francesinha records. One clear comparison across Porto and Gaia, using Google ratings, prices, opening hours and the details that shape a visit.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#findings">Explore the findings</a>
+          <a class="button secondary" href="#map">Open the interactive map</a>
+        </div>
+      </div>
     </section>
 
-    <section class="map-card" aria-labelledby="map-title">
-      <div class="map-header">
-        <h2 id="map-title">Restaurant map</h2>
-        <p>Point size represents Google rating. Point colour represents average francesinha price.</p>
+    <section class="section" aria-labelledby="snapshot-title">
+      <div class="shell">
+        <div class="section-intro"><h2 id="snapshot-title">The project at a glance</h2><p>A source-backed snapshot collected in Google Sheets, analysed with beginner-friendly SQL and presented through Tableau.</p></div>
+        <div class="metrics">
+          <div class="metric"><span class="metric-value">31</span><span class="metric-label">restaurants studied</span></div>
+          <div class="metric"><span class="metric-value">54</span><span class="metric-label">francesinha records</span></div>
+          <div class="metric"><span class="metric-value">4.5</span><span class="metric-label">average Google rating</span></div>
+          <div class="metric"><span class="metric-value">€13.21</span><span class="metric-label">average francesinha price</span></div>
+        </div>
       </div>
+    </section>
 
-      <div class="map-frame">
-        <iframe
-          title="The Francesinha Index restaurant map"
-          src="https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no&:embed=true"
-          allowfullscreen>
-        </iframe>
+    <section class="section" aria-labelledby="cities-title">
+      <div class="shell">
+        <div class="section-intro"><h2 id="cities-title">Porto vs Gaia</h2><p>The two locations are close together, but the sample still shows a small difference in rating and price.</p></div>
+        <div class="grid-2">
+          <article class="card city-card"><div class="eyebrow">Porto</div><div class="city-stat"><strong>4.41</strong><span>average Google rating</span></div><p>16 restaurants and 27 francesinha records. Average price: <strong>€13.41</strong>.</p></article>
+          <article class="card city-card"><div class="eyebrow">Gaia</div><div class="city-stat"><strong>4.51</strong><span>average Google rating</span></div><p>15 restaurants and 27 francesinha records. Average price: <strong>€13.01</strong>.</p></article>
+        </div>
+        <div class="card" style="margin-top:18px;overflow:auto">
+          <table class="comparison"><thead><tr><th>City</th><th>Restaurants</th><th>Francesinhas</th><th>Average rating</th><th>Average price</th></tr></thead><tbody><tr><td>Porto</td><td>16</td><td>27</td><td>4.41</td><td>€13.41</td></tr><tr><td>Gaia</td><td>15</td><td>27</td><td>4.51</td><td>€13.01</td></tr></tbody></table>
+        </div>
       </div>
+    </section>
 
-      <p class="fallback">
-        If the map does not load, <a href="https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no" target="_blank" rel="noopener">open it directly on Tableau Public</a>.
-      </p>
+    <section id="findings" class="section" aria-labelledby="findings-title">
+      <div class="shell">
+        <div class="section-intro"><h2 id="findings-title">What the data says</h2><p>These are patterns in this sample, not universal rules. The value is in making the comparison visible.</p></div>
+        <div class="finding-grid">
+          <article class="card finding"><span class="tag">Price range</span><strong>€7.50 → €17.00</strong><p>The cheapest record was a Vegetarian option at Requinte Francesinhas. The most expensive was the Original at Café Restaurante O Afonso.</p></article>
+          <article class="card finding"><span class="tag">Categories</span><strong>34 / 15 / 4</strong><p>Original, Vegetarian and Vegan records. One additional record uses a size label instead of an analytical category.</p><div class="bar-list"><div class="bar-row"><span>Original</span><div class="bar"><i style="width:100%"></i></div><b>34</b></div><div class="bar-row"><span>Vegetarian</span><div class="bar"><i style="width:44%"></i></div><b>15</b></div><div class="bar-row"><span>Vegan</span><div class="bar"><i style="width:12%"></i></div><b>4</b></div></div></article>
+          <article class="card finding"><span class="tag">Fries</span><strong>+0.14 rating points</strong><p>Fresh-fries restaurants averaged 4.48, compared with 4.34 for frozen fries. This is an association, not proof of causation.</p></article>
+        </div>
+        <div class="quote">For the main price-quality ranking, only Original francesinhas were compared. Vegetarian and Vegan options can have different ingredients and preparation methods, so combining them would make the comparison less fair.</div>
+      </div>
+    </section>
+
+    <section id="map" class="section" aria-labelledby="map-title">
+      <div class="shell">
+        <div class="section-intro"><h2 id="map-title">Explore the restaurants</h2><p>Use the map to compare location, Google rating and average price. Filter by city, rating or price.</p></div>
+        <div class="tableau-wrap">
+          <iframe title="Interactive map comparing francesinha restaurants by Google rating and average price" src="https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no" loading="lazy" allowfullscreen></iframe>
+        </div>
+        <p style="color:var(--muted);margin:16px 4px 0">If the embedded view does not load, <a href="https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no" target="_blank" rel="noreferrer" style="color:var(--orange-soft)">open the dashboard directly on Tableau Public</a>.</p>
+      </div>
+    </section>
+
+    <section id="method" class="section" aria-labelledby="method-title">
+      <div class="shell">
+        <div class="section-intro"><h2 id="method-title">How it was built</h2><p>The project follows a simple, reproducible path from collection to presentation.</p></div>
+        <div class="method-grid">
+          <article class="card"><div class="eyebrow">Workflow</div><ul class="method-list"><li><strong>1. Collect</strong><br>Google Maps supplied restaurant ratings and review counts. Menu and service information used saved source links.</li><li><strong>2. Organise</strong><br>Google Sheets separated restaurants, opening hours, francesinhas and extras.</li><li><strong>3. Check</strong><br>IDs, prices, ratings, coordinates, categories and closed-hour rows were audited before analysis.</li><li><strong>4. Analyse</strong><br>Sheets handled the main calculations. Basic SQL queries used SELECT, WHERE, JOIN, GROUP BY, ORDER BY, COUNT and AVG.</li></ul></article>
+          <article class="card"><div class="eyebrow">A fairer rating</div><h3 style="margin-top:14px">Why adjust Google ratings?</h3><p>A rating based on 50 reviews is less stable than one based on thousands. The project therefore uses a cautious weighted value for ranking restaurants.</p><p style="color:var(--orange-soft);font-weight:800">Adjusted rating = (reviews ÷ (reviews + 500)) × rating + (500 ÷ (reviews + 500)) × overall average</p><p>The 500-review value pulls small samples toward the overall average. More reviews give the restaurant’s own rating more weight. The original Google rating remains visible.</p></article>
+        </div>
+        <div class="grid-2" style="margin-top:18px"><article class="card"><div class="eyebrow">Services</div><h3 style="margin-top:14px">Takeaway, delivery and reservations</h3><p>The dataset records 28 confirmed takeaway restaurants, 22 confirmed delivery restaurants and 26 confirmed reservation restaurants. Unknown means “not confirmed”, not “does not exist”.</p></article><article class="card"><div class="eyebrow">Opening hours</div><h3 style="margin-top:14px">Sunday closes most often</h3><p>Sunday had 17 closed restaurants and Monday had 11. The most common opening time was 12:00. The most common interval close was 15:00, often marking the end of lunch service.</p></article></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="limits-title">
+      <div class="shell">
+        <div class="section-intro"><h2 id="limits-title">Read the results carefully</h2><p>A good comparison also says where its certainty ends.</p></div>
+        <div class="grid-2"><article class="card"><h3>What this project can show</h3><p>It makes price, rating, location, category, fries, opening hours and services easier to compare in one place.</p></article><article class="card"><h3>What it cannot prove</h3><p>Google ratings belong to restaurants, not individual dishes. Prices and hours change. The fries comparison is observational and does not prove that frozen fries cause lower ratings.</p></article></div>
+      </div>
     </section>
   </main>
+
+  <footer class="footer"><div class="shell footer-inner"><div><strong>The Francesinha Index</strong><br><span>Porto and Gaia · data collected for a learning project</span></div><div class="footer-links"><a href="https://github.com/finambre/the-francesinha-index" target="_blank" rel="noreferrer">GitHub</a><a href="https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no" target="_blank" rel="noreferrer">Tableau</a><a href="#top">Back to top</a></div></div></footer>
+  <script>
+    const menu = document.querySelector('.menu');
+    const nav = document.querySelector('#site-nav');
+    menu.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      menu.setAttribute('aria-expanded', String(open));
+    });
+    nav.addEventListener('click', (event) => {
+      if (event.target.matches('a')) {
+        nav.classList.remove('open');
+        menu.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
 </body>
 </html>
+
