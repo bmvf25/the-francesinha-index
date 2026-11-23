@@ -198,9 +198,12 @@ The queries are written for SQLite and use the CSV files in the `data` folder.
 
 ## Tableau and website
 
-The next stage is to create a Tableau Public dashboard with the main comparisons. The dashboard will include charts and filters for city, category, price, rating, fries and services.
+The Tableau Public dashboard is now published and contains the interactive restaurant map and the main comparisons.
 
-The final website page will combine:
+- [Open the GitHub Pages website](https://finambre.github.io/the-francesinha-index/);
+- [Open the Tableau Public dashboard](https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no).
+
+The GitHub Pages website combines:
 
 - the story of the project;
 - the methodology;
@@ -224,6 +227,6 @@ This project has some limitations:
 
 This project started as a simple list of francesinha restaurants and became a small end-to-end data project.
 
-The final result includes a cleaned dataset, basic SQL queries, Google Sheets analysis and a plan for an interactive Tableau dashboard.
+The final result includes a cleaned dataset, basic SQL queries, Google Sheets analysis, a published Tableau Public dashboard and a GitHub Pages website.
 
 The main conclusion is not that one restaurant is the universal winner. Instead, the project makes it easier to compare restaurants according to different needs: price, rating, location, category, opening hours and available services.
