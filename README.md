@@ -1,5 +1,7 @@
 # The Francesinha Index
 
+**Live project page:** [finambre.github.io/the-francesinha-index](https://finambre.github.io/the-francesinha-index/)
+
 ## About the project
 
 This project started with a simple question: **where can I find a good francesinha in Porto or Gaia without looking only at the restaurant's Google rating?**
