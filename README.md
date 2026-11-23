@@ -4,7 +4,7 @@
 
 This project started with a simple question: **where can I find a good francesinha in Porto or Gaia without looking only at the restaurant's Google rating?**
 
-The francesinha is a typical dish from the Porto area, but restaurants can be very different in price, opening hours, menu options and services. I wanted to collect this information in one place and use it to make a fairer comparison.
+The francesinha is a typical dish from the Porto metropolitan area, but restaurants can be very different in price, opening hours, menu options and services. I wanted to collect this information in one place and use it to make a fairer comparison.
 
 The final dataset contains:
 
@@ -25,7 +25,7 @@ The main questions were:
 
 1. Is there a difference between Porto and Gaia?
 2. Which francesinhas are the cheapest and most expensive?
-3. Which Original francesinhas offer the best rating for the price?
+3. Which francesinhas offer the best rating for the price?
 4. Are restaurants with fresh fries rated differently from restaurants with frozen fries?
 5. Which restaurants offer vegetarian or vegan francesinhas?
 6. Which restaurants have takeaway, delivery or reservations?
@@ -61,8 +61,6 @@ The main categories are:
 - `Original`;
 - `Vegetarian`;
 - `Vegan`.
-
-There is also one `XXL` entry. I kept it in the original data, but did not include it in the normal category comparison because XXL describes a special size rather than a comparable category.
 
 ### Extras
 
@@ -149,7 +147,7 @@ The most expensive francesinha was the Original option at Café Restaurante O Af
 
 ### Categories
 
-Excluding the XXL entry, the dataset contains:
+The main category counts are:
 
 - 34 Original francesinhas;
 - 15 Vegetarian francesinhas;
@@ -229,4 +227,3 @@ This project started as a simple list of francesinha restaurants and became a sm
 The final result includes a cleaned dataset, basic SQL queries, Google Sheets analysis and a plan for an interactive Tableau dashboard.
 
 The main conclusion is not that one restaurant is the universal winner. Instead, the project makes it easier to compare restaurants according to different needs: price, rating, location, category, opening hours and available services.
-
