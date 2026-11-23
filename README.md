@@ -147,11 +147,13 @@ The most expensive francesinha was the Original option at Café Restaurante O Af
 
 ### Categories
 
-The main category counts are:
+The three analytical category counts are:
 
 - 34 Original francesinhas;
 - 15 Vegetarian francesinhas;
 - 4 Vegan francesinhas.
+
+One additional record uses a size label rather than one of these analytical categories, so these three counts add up to 53 while the full dataset contains 54 records.
 
 ### Fresh and frozen fries
 
@@ -198,12 +200,9 @@ The queries are written for SQLite and use the CSV files in the `data` folder.
 
 ## Tableau and website
 
-The Tableau Public dashboard is now published and contains the interactive restaurant map and the main comparisons.
+The Tableau Public dashboard is published with the main comparisons and filters for city, price and Google rating. The map uses restaurant coordinates, keeps restaurant names in the detail, sizes marks by Google rating and uses price as the colour scale.
 
-- [Open the GitHub Pages website](https://finambre.github.io/the-francesinha-index/);
-- [Open the Tableau Public dashboard](https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no).
-
-The GitHub Pages website combines:
+The final website page will combine:
 
 - the story of the project;
 - the methodology;
@@ -227,6 +226,7 @@ This project has some limitations:
 
 This project started as a simple list of francesinha restaurants and became a small end-to-end data project.
 
-The final result includes a cleaned dataset, basic SQL queries, Google Sheets analysis, a published Tableau Public dashboard and a GitHub Pages website.
+The final result includes a cleaned dataset, basic SQL queries, Google Sheets analysis and a published interactive Tableau dashboard.
 
 The main conclusion is not that one restaurant is the universal winner. Instead, the project makes it easier to compare restaurants according to different needs: price, rating, location, category, opening hours and available services.
+
