@@ -98,6 +98,22 @@
     .bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--orange), var(--orange-soft)); }
     .bar-row b { color: var(--ink); text-align: right; }
     .quote { margin: 28px 0 0; padding: 22px 24px; border-left: 3px solid var(--orange); color: var(--ink); background: #fff8ed; }
+    .chart-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 18px; }
+    .chart-card { padding: 24px; }
+    .chart-card h3 { font-size: 1.15rem; }
+    .chart-note { margin: 7px 0 22px; color: var(--muted); font-size: .9rem; }
+    .chart-bars { display: grid; gap: 15px; }
+    .chart-row { display: grid; grid-template-columns: 72px 1fr auto; gap: 10px; align-items: center; color: var(--muted); font-size: .9rem; }
+    .chart-track { height: 12px; overflow: hidden; border-radius: 999px; background: #e8edf0; }
+    .chart-fill { height: 100%; border-radius: inherit; background: var(--orange); }
+    .chart-fill.blue { background: var(--blue); }
+    .chart-fill.green { background: var(--green); }
+    .chart-row strong { min-width: 44px; color: var(--ink); text-align: right; font-size: .9rem; }
+    .chart-legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; color: var(--muted); font-size: .82rem; }
+    .chart-legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .chart-legend i { width: 9px; height: 9px; border-radius: 50%; background: var(--orange); }
+    .chart-legend i.blue { background: var(--blue); }
+    .chart-legend i.green { background: var(--green); }
     .tableau-wrap { padding: 10px; border: 1px solid var(--line); border-radius: 22px; background: #fff; box-shadow: 0 18px 70px rgba(0,0,0,.25); }
     .tableau-wrap iframe { display: block; width: 100%; min-height: 650px; border: 0; border-radius: 14px; }
     .method-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 18px; }
@@ -114,7 +130,7 @@
       .nav-links { display: none; position: absolute; left: 20px; right: 20px; top: 62px; padding: 16px; flex-direction: column; align-items: stretch; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
       .nav-links.open { display: flex; }
       .menu { display: block; }
-      .metrics, .finding-grid { grid-template-columns: repeat(2, 1fr); }
+      .metrics, .finding-grid, .chart-grid { grid-template-columns: repeat(2, 1fr); }
       .method-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 600px) {
@@ -123,7 +139,7 @@
       .section { padding: 62px 0; }
       .section-intro, .footer-inner { display: block; }
       .section-intro p { margin-top: 14px; }
-      .metrics, .grid-2, .finding-grid { grid-template-columns: 1fr; }
+      .metrics, .grid-2, .finding-grid, .chart-grid { grid-template-columns: 1fr; }
       .metric-value { font-size: 2.2rem; }
       .tableau-wrap iframe { min-height: 570px; }
       .footer-links { margin-top: 18px; }
@@ -208,6 +224,36 @@
           <article class="card finding"><span class="tag">Fries</span><strong>+0.14 rating points</strong><p>Fresh-fries restaurants averaged 4.48, compared with 4.34 for frozen fries. This is an association, not proof of causation.</p></article>
         </div>
         <div class="quote">For the main price-quality ranking, only Original francesinhas were compared. Vegetarian and Vegan options can have different ingredients and preparation methods, so combining them would make the comparison less fair.</div>
+        <div class="chart-grid" aria-label="Simple comparison charts">
+          <article class="card chart-card">
+            <h3>Porto vs Gaia</h3>
+            <p class="chart-note">Average Google rating</p>
+            <div class="chart-bars" role="img" aria-label="Gaia has an average rating of 4.51 and Porto 4.41">
+              <div class="chart-row"><span>Porto</span><div class="chart-track"><div class="chart-fill blue" style="width:88.2%"></div></div><strong>4.41</strong></div>
+              <div class="chart-row"><span>Gaia</span><div class="chart-track"><div class="chart-fill" style="width:90.2%"></div></div><strong>4.51</strong></div>
+            </div>
+            <div class="chart-legend"><span><i class="blue"></i>Porto</span><span><i></i>Gaia</span></div>
+          </article>
+          <article class="card chart-card">
+            <h3>Francesinha categories</h3>
+            <p class="chart-note">Number of records</p>
+            <div class="chart-bars" role="img" aria-label="34 Original, 15 Vegetarian and 4 Vegan records">
+              <div class="chart-row"><span>Original</span><div class="chart-track"><div class="chart-fill" style="width:100%"></div></div><strong>34</strong></div>
+              <div class="chart-row"><span>Vegetarian</span><div class="chart-track"><div class="chart-fill green" style="width:44.1%"></div></div><strong>15</strong></div>
+              <div class="chart-row"><span>Vegan</span><div class="chart-track"><div class="chart-fill blue" style="width:11.8%"></div></div><strong>4</strong></div>
+            </div>
+            <p class="chart-note" style="margin:18px 0 0">The separate XXL record is not included in these three category bars.</p>
+          </article>
+          <article class="card chart-card">
+            <h3>Fresh vs frozen fries</h3>
+            <p class="chart-note">Average Google rating</p>
+            <div class="chart-bars" role="img" aria-label="Fresh fries average 4.48 and frozen fries average 4.34">
+              <div class="chart-row"><span>Fresh</span><div class="chart-track"><div class="chart-fill green" style="width:89.6%"></div></div><strong>4.48</strong></div>
+              <div class="chart-row"><span>Frozen</span><div class="chart-track"><div class="chart-fill blue" style="width:86.8%"></div></div><strong>4.34</strong></div>
+            </div>
+            <p class="chart-note" style="margin:18px 0 0">Observed difference: 0.14 rating points.</p>
+          </article>
+        </div>
       </div>
     </section>
 
