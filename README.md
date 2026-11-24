@@ -1,4 +1,4 @@
-# The Francesinha Index
+# The Francesinha Index - Porto & Gaia
 
 ## About the project
 
