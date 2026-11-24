@@ -1,4 +1,4 @@
-# The Francesinha Index - Porto & Gaia
+# The Francesinha Index
 
 ## About the project
 
@@ -215,7 +215,7 @@ Published links:
 
 - [GitHub repository](https://github.com/bmvf25/the-francesinha-index)
 - [GitHub Pages website](https://bmvf25.github.io/the-francesinha-index/)
-- [Tableau Public dashboard](https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no)
+- [Tableau Public dashboard](https://public.tableau.com/views/the-francesinha-index/Restaurantmapratingandprice?:showVizHome=no)
 
 ## Limitations
 
