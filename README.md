@@ -1,7 +1,5 @@
 # The Francesinha Index
 
-**Live project page:** [finambre.github.io/the-francesinha-index](https://finambre.github.io/the-francesinha-index/)
-
 ## About the project
 
 This project started with a simple question: **where can I find a good francesinha in Porto or Gaia without looking only at the restaurant's Google rating?**
@@ -204,7 +202,7 @@ The queries are written for SQLite and use the CSV files in the `data` folder.
 
 The Tableau Public dashboard is published with the main comparisons and filters for city, price and Google rating. The map uses restaurant coordinates, keeps restaurant names in the detail, sizes marks by Google rating and uses price as the colour scale.
 
-The final website page will combine:
+The final website page combines:
 
 - the story of the project;
 - the methodology;
@@ -212,6 +210,12 @@ The final website page will combine:
 - screenshots and charts;
 - the interactive Tableau dashboard;
 - the limitations of the analysis.
+
+Published links:
+
+- [GitHub repository](https://github.com/bmvf25/the-francesinha-index)
+- [GitHub Pages website](https://bmvf25.github.io/the-francesinha-index/)
+- [Tableau Public dashboard](https://public.tableau.com/views/the-francesinha-index/Mapaderestaurantesratingepreo?:showVizHome=no)
 
 ## Limitations
 
