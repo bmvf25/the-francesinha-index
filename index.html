@@ -85,10 +85,12 @@
     .city-stat { display: flex; align-items: baseline; gap: 12px; margin: 20px 0 4px; }
     .city-stat strong { font-family: Nunito, ui-sans-serif, system-ui, sans-serif; font-size: 2.5rem; color: var(--orange-soft); }
     .city-stat span { color: var(--muted); }
-    .comparison { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    .comparison { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 16px; }
     .comparison th, .comparison td { padding: 12px 0; border-bottom: 1px solid var(--line); text-align: left; }
     .comparison th { color: var(--muted); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
     .comparison th:not(:first-child), .comparison td:not(:first-child) { text-align: center; }
+    .comparison th:first-child, .comparison td:first-child { width: 16%; }
+    .comparison th:not(:first-child), .comparison td:not(:first-child) { width: 21%; }
     .finding-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     .finding .tag { display: inline-block; color: var(--orange-soft); font-size: .76rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
     .finding strong { display: block; margin-top: 18px; font-family: Nunito, ui-sans-serif, system-ui, sans-serif; font-size: 1.8rem; letter-spacing: -.03em; }
