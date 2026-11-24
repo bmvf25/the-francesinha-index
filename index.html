@@ -17,6 +17,7 @@
       --orange-soft: #ffcc70;
       --blue: #74c0fc;
       --green: #7bd88f;
+      --violet: #c4a7ff;
       --max: 1180px;
     }
     * { box-sizing: border-box; }
@@ -44,27 +45,42 @@
     .nav-links a { color: var(--muted); font-size: .92rem; text-decoration: none; }
     .nav-links a:hover, .nav-links a:focus-visible { color: var(--ink); }
     .menu { display: none; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 8px; padding: 7px 10px; font-size: 1.1rem; }
-    .hero { padding: 110px 0 90px; }
+    .hero { padding: 82px 0 68px; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr); align-items: end; gap: 56px; }
     .eyebrow { color: var(--orange-soft); font-size: .78rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
     h1, h2, h3 { line-height: 1.1; letter-spacing: -.04em; margin: 0; }
-    h1 { max-width: 800px; margin-top: 16px; font-size: clamp(3.4rem, 9vw, 7.6rem); }
+    h1 { max-width: 740px; margin-top: 16px; font-size: clamp(3rem, 6.5vw, 5.7rem); }
     h2 { font-size: clamp(2rem, 4vw, 3.4rem); }
     h3 { font-size: 1.3rem; }
     .hero p { max-width: 680px; color: var(--muted); font-size: 1.18rem; margin: 25px 0 0; }
     .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .quick-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+    .quick-nav a { padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .86rem; text-decoration: none; }
+    .quick-nav a:hover, .quick-nav a:focus-visible { color: var(--ink); border-color: var(--orange); }
+    .hero-panel { padding: 24px; border: 1px solid var(--line); border-radius: 22px; background: linear-gradient(145deg, rgba(245,166,35,.18), rgba(24,38,58,.78)); box-shadow: 0 24px 70px rgba(0,0,0,.2); }
+    .hero-panel h2 { margin-top: 12px; font-size: 1.8rem; }
+    .hero-panel p { font-size: .98rem; margin-top: 12px; }
+    .hero-panel ul { display: grid; gap: 10px; margin: 22px 0 0; padding: 0; list-style: none; color: var(--muted); }
+    .hero-panel li { display: flex; gap: 10px; align-items: baseline; }
+    .hero-panel li::before { content: ""; width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%; background: var(--orange); }
     .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-weight: 750; }
     .button.primary { color: #1b1406; border-color: var(--orange); background: var(--orange); }
     .button.secondary:hover, .button.secondary:focus-visible { border-color: var(--orange); }
-    .section { padding: 86px 0; border-top: 1px solid var(--line); }
+    .section { padding: 72px 0; border-top: 1px solid var(--line); }
     .section-intro { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 34px; }
     .section-intro p { max-width: 520px; color: var(--muted); margin: 0; }
     .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
     .metric, .card { border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(145deg, rgba(24,38,58,.9), rgba(18,29,45,.9)); }
-    .metric { padding: 24px; }
+    .metric { padding: 22px; border-top: 3px solid var(--orange); transition: transform .2s ease, border-color .2s ease; }
+    .metric:hover { transform: translateY(-3px); border-color: var(--orange-soft); }
+    .metric:nth-child(2) { border-top-color: var(--blue); }
+    .metric:nth-child(3) { border-top-color: var(--green); }
+    .metric:nth-child(4) { border-top-color: var(--violet); }
     .metric-value { display: block; color: var(--orange-soft); font-size: 2.6rem; font-weight: 850; letter-spacing: -.06em; }
     .metric-label { color: var(--muted); font-size: .92rem; }
     .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
-    .card { padding: 26px; }
+    .card { padding: 26px; transition: transform .2s ease, border-color .2s ease; }
+    .card:hover { transform: translateY(-3px); border-color: rgba(245,166,35,.45); }
     .card p { color: var(--muted); margin: 12px 0 0; }
     .city-card { position: relative; overflow: hidden; }
     .city-card::after { content: ""; position: absolute; width: 150px; height: 150px; right: -60px; top: -60px; border-radius: 50%; background: rgba(245,166,35,.12); }
@@ -96,6 +112,7 @@
     .footer-links a { color: var(--orange-soft); text-decoration: none; }
     :focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
     @media (max-width: 850px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 34px; }
       .nav-links { display: none; position: absolute; left: 20px; right: 20px; top: 62px; padding: 16px; flex-direction: column; align-items: stretch; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
       .nav-links.open { display: flex; }
       .menu { display: block; }
@@ -104,7 +121,7 @@
     }
     @media (max-width: 600px) {
       .shell { width: min(calc(100% - 28px), var(--max)); }
-      .hero { padding: 75px 0 65px; }
+      .hero { padding: 65px 0 55px; }
       .section { padding: 62px 0; }
       .section-intro, .footer-inner { display: block; }
       .section-intro p { margin-top: 14px; }
@@ -131,13 +148,30 @@
 
   <main id="top">
     <section class="hero">
-      <div class="shell">
-        <div class="eyebrow">A small data story about a big local classic</div>
-        <h1>Finding a better francesinha starts with better questions.</h1>
-        <p>31 restaurants. 54 francesinha records. One clear comparison across Porto and Gaia, using Google ratings, prices, opening hours and the details that shape a visit.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#findings">Explore the findings</a>
-          <a class="button secondary" href="#map">Open the interactive map</a>
+      <div class="shell hero-grid">
+        <div>
+          <div class="eyebrow">A small data story about a big local classic</div>
+          <h1>Finding a better francesinha starts with better questions.</h1>
+          <p>31 restaurants. 54 francesinha records. One clear comparison across Porto and Gaia, using Google ratings, prices, opening hours and the details that shape a visit.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#findings">Explore the findings</a>
+            <a class="button secondary" href="#map">Open the interactive map</a>
+          </div>
+          <nav class="quick-nav" aria-label="Page shortcuts">
+            <a href="#snapshot-title">Snapshot</a>
+            <a href="#cities-title">Porto vs Gaia</a>
+            <a href="#method-title">How it was built</a>
+          </nav>
+        </div>
+        <aside class="hero-panel" aria-label="Project summary">
+          <div class="eyebrow">In 60 seconds</div>
+          <h2>Compare what matters before you choose.</h2>
+          <p>The project turns scattered restaurant information into one readable comparison.</p>
+          <ul>
+            <li>Rating and review volume</li>
+            <li>Price and francesinha category</li>
+            <li>Location, hours and services</li>
+          </ul>
         </div>
       </div>
     </section>
